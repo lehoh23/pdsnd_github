@@ -19,7 +19,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     
-    
+
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
     # Get city input
@@ -123,7 +123,7 @@ def station_stats(df):
 
     # display most frequent combination of start station and end station trip
     popular_combination = df.groupby('Start Station')['End Station'].value_counts().idxmax()
-    print('Most common combination:\n - Start: {start}\n - End: {end}'.format(start = popular_combination[0], end = popular_combination[1]))
+    print('Most common combination:\n - Start: {s}\n - End: {e}'.format(s = popular_combination[0], e = popular_combination[1]))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
