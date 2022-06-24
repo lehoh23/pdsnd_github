@@ -7,7 +7,7 @@
 Bikeshare Analysis
 
 ### Description
-Explore Bikeshare Service Data from Chicago, New York & Washington
+Interactive program to explore Bikeshare Service Data from Chicago, New York & Washington
 
 ### Files used
 chicago.csv
