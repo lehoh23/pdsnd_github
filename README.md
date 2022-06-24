@@ -10,8 +10,12 @@ Bikeshare Analysis
 Explore Bikeshare Service Data from Chicago, New York & Washington
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+This helped me on the way:
+https://stackoverflow.com/questions/66717617/typeerror-input-expected-at-most-1-argument-got-2
+https://stackoverflow.com/questions/37583870/difference-between-two-dates-in-pandas-dataframe
+https://stackoverflow.com/questions/63229237/finding-the-most-frequent-combination-in-dataframe
